@@ -1,13 +1,16 @@
 .deleteBtn {
-  margin-left: auto;
-}
-
-.deleteBtn {
+  display: flex;
+  align-items: center;
+  padding: 0;
+  justify-content: center;
   font-size: 15px;
-  border-radius: 20px;
+  border-radius: 100%;
+  height: 32px;
+  width: 32px;
   background-color: #edafb8;
   color: #213547;
   border: none;
+  margin-left: auto;
   outline: none;
   transition: all 300ms;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
@@ -40,5 +43,5 @@
 .string {
   display: flex;
   align-items: center;
-  gap: 5px;
+  gap: 8px;
 }
